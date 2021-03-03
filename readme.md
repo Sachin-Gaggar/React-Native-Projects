@@ -17,14 +17,15 @@ Create a text input , text and view alongwith the following steps:-
       Give that RGB value as background color for the <View>.
 
 #### Output=>
-      <img width="300px" src="./Screeshots/Exercise2.1.png"> 
-      <img width="300px" src="./Screeshots/Exercise2.2.png"> 
+<img width="300px" src="./Screeshots/Exercise2.1.png"> 
+<img width="300px" src="./Screeshots/Exercise2.2.png"> 
 
 ## Exercise 3.
 Create a image view and show activity indicator in place of image while it
      is loaded.
 #### Output=>
-<img width="300px" src="./Screeshots/Exercise3.1.png"><img width="300px" src="./Screeshots/Exercise3.2.png"> 
+<img width="300px" src="./Screeshots/Exercise3.1.png">
+<img width="300px" src="./Screeshots/Exercise3.2.png"> 
 
      
      
