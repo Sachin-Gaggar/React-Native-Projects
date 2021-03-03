@@ -23,6 +23,7 @@ Output=>
 Create a image view and show activity indicator in place of image while it
      is loaded.
 Output=>
+
 <img width="300px" src="./Screeshots/Exercise3.1.png"> 
 <img width="300px" src="./Screeshots/Exercise3.2.png"> 
 
