@@ -6,8 +6,7 @@
 Create the screen with design given in the link below along with background  image.
       https://drive.google.com/file/d/1ot21Mo6zOgiY1gkDPyLw82FKe82eSXws/view?  usp=sharing
       
-![Screenshot_1614783015](https://user-images.githubusercontent.com/71544176/109855811-c0f5f480-7c7e-11eb-8ba0-4f36d563a871.png)
-
+<img src="Screenshots/Exercise1.png" width="300"/>
       
 ### Exercise 2. 
 Create a text input , text and view alongwith the following steps:-
