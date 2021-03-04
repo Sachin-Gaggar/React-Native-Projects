@@ -1,4 +1,4 @@
-#React Native Debuging
+#React Native Debugging
 
 ## Exercise
 1) Update the code structure 
