@@ -60,7 +60,7 @@ class Exercise extends Component {
         <SafeAreaView />
         <ScrollView contentContainerStyle={styles.container}>
           {!loading && !data ? (
-            <View>
+            <View style={styles.button}>
               <Button title='Fetch Data' onPress={this.onPress} />
             </View>
           ) : (
@@ -85,9 +85,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: "center",
-    alignItems: "center",
   },
-
+  button: {
+    marginHorizontal: 30,
+  },
   card: {
     flex: 1,
     padding: 16,
