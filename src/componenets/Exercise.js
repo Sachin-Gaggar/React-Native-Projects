@@ -11,7 +11,7 @@ import {
   ActivityIndicator,
 } from "react-native";
 
-class App extends Component {
+class Exercise extends Component {
   constructor(props) {
     super(props);
     this.state = {
