@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.awesomeproject"
+3    package="com.navigationproject"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -20,7 +20,7 @@
 14
 15    <application
 15-->/Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:6:5-25:19
-16        android:name="com.awesomeproject.MainApplication"
+16        android:name="com.navigationproject.MainApplication"
 16-->/Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:7:7-38
 17        android:allowBackup="false"
 17-->/Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:11:7-34
@@ -39,7 +39,7 @@
 24-->/Users/ttn/TTN-Exercise/android/app/src/debug/AndroidManifest.xml:7:18-53
 25        <activity
 25-->/Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:13:7-23:18
-26            android:name="com.awesomeproject.MainActivity"
+26            android:name="com.navigationproject.MainActivity"
 26-->/Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:14:9-37
 27            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
 27-->/Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:16:9-86

@@ -8,9 +8,15 @@ MERGED from /Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:1:1
 MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3b7a2c45cb6c7bd434f3a094d008607b/flipper-0.54.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/f9c79217b3e80f14a471f1c0bd2bcc2f/flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/6d7fe8fad54d2b63eb4758cc726f97f6/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-community_masked-view] /Users/ttn/TTN-Exercise/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /Users/ttn/TTN-Exercise/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/ttn/TTN-Exercise/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/ttn/TTN-Exercise/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /Users/ttn/TTN-Exercise/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3f105c5f73c2bf4ecd1f3530da486c56/jetified-react-native-0.63.4/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/9cd4d3dedff587c91dc19b09a61e988c/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /Users/ttn/.gradle/caches/transforms-2/files-2.1/0d2d97b9494835f94bc2452b0db78366/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /Users/ttn/TTN-Exercise/node_modules/react-native-reanimated/android/build/.transforms/850c73455e479406acc3002968e8d286/react-native-reanimated-63/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/b53d4d419daeb8624358f6b201534664/flipper-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/15d70ca80488b64990273bbf263c0a16/stetho-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/73a586aab75e16636999130c7c22426c/fresco-2.2.0/AndroidManifest.xml:2:1-9:12
@@ -26,35 +32,42 @@ MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/ttn/.gradle
 MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/1f619366aeaf832d1471b6476e87f573/imagepipeline-base-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/949c4c3ea53ffff7bfbe471b7ced550a/soloader-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/8c726a69760654a996beebecd11f4c48/soloader-0.9.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/08b7f70788502e7fe5c57ef945a6713b/material-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/dc1b1298ed651ed2015da6fcf519fde1/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/cd14a011cb372eb94f4e23d914348a92/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/1fc68d05f0152af01eb8986c8bd3d4d0/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/5b533ea5c844bb5802902a1f12adde4f/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/46edf29416524a2b5630592e8e2ee668/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/af5ec231c4731fa325abc2711b9808f8/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3c12965b57c5e1e86b95d72fd3b56079/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/cd29c5acebbf52d957788348d0bdfad9/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/b9d3e3e54657ce0eb1c9f2606ed99009/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/600af7d8b4c1a49f073ccc55128c2ca0/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/0682d44037e63aa75fb007c4221fc230/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/be7bea005cd12de06596d388b86940d0/activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/79a35254fe7386a97dced08ee170a15d/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/1eadbabcb348a5ccc29365639a3f8cf9/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/23a1bb1fc5d2b4e05ca984a0b1a28ad9/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/67e802207a49464f33b4464c0920b814/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/72848473da07d5805c641f4c414986cb/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/79a35254fe7386a97dced08ee170a15d/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/b42092715113546b31744f18fd918acc/core-1.1.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/010eca709ebba2bd136bed1e05b6cd87/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/64e036f5d50542c926dd3b1d9ffbc5b0/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/9d959c436098a8cc06674624eaddccaf/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/20845eaba722071cd719e0d185312e73/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/fe2dc7fc86bfac82c1908a087cb3dc5e/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/00fca3b82372c2168626273b40bfb330/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/813aaf7d6bb80469e1f61dc1b20a9feb/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/e2a3c36934de4dc0561002a6050950ef/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/0795f535144fd1be777f0291773b764a/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/db8ad568b3c3d921cdfd0d9bcfc017af/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/b0f99e977f2cafa9278d5f31f3d48834/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/28ae6d34b782bbac95ddf917fab81c2c/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/6ffa913b4799f5359fe13bbd17c6e88d/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/99b9e98e6716edd4b137f55ed41815d2/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/4f5f2d40c79c3cfc43bf4b32212fd98b/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/139d0fdd259ac77c55f980261c3da57f/ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
 INJECTED from /Users/ttn/TTN-Exercise/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /Users/ttn/TTN-Exercise/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /Users/ttn/TTN-Exercise/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 	package
-		ADDED from /Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:2:3-31
+		ADDED from /Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:2:3-34
 		INJECTED from /Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:2:3-31
+		ADDED from /Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:2:3-34
 		INJECTED from /Users/ttn/TTN-Exercise/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml
@@ -82,6 +95,8 @@ MERGED from [com.facebook.react:react-native:0.63.4] /Users/ttn/.gradle/caches/t
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3f105c5f73c2bf4ecd1f3530da486c56/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/8c726a69760654a996beebecd11f4c48/soloader-0.9.0/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/8c726a69760654a996beebecd11f4c48/soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/08b7f70788502e7fe5c57ef945a6713b/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/08b7f70788502e7fe5c57ef945a6713b/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.core:core:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/b42092715113546b31744f18fd918acc/core-1.1.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/b42092715113546b31744f18fd918acc/core-1.1.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/64e036f5d50542c926dd3b1d9ffbc5b0/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
@@ -112,7 +127,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ttn/
 	android:name
 		ADDED from /Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:7:7-38
 		ADDED from /Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:7:7-38
-activity#com.awesomeproject.MainActivity
+activity#com.navigationproject.MainActivity
 ADDED from /Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:13:7-23:18
 	android:label
 		ADDED from /Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:15:9-41
@@ -148,12 +163,24 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/ttn/.gra
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/f9c79217b3e80f14a471f1c0bd2bcc2f/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/6d7fe8fad54d2b63eb4758cc726f97f6/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/6d7fe8fad54d2b63eb4758cc726f97f6/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-community_masked-view] /Users/ttn/TTN-Exercise/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/ttn/TTN-Exercise/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/ttn/TTN-Exercise/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/ttn/TTN-Exercise/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/ttn/TTN-Exercise/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/ttn/TTN-Exercise/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/ttn/TTN-Exercise/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/ttn/TTN-Exercise/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/ttn/TTN-Exercise/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/ttn/TTN-Exercise/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3f105c5f73c2bf4ecd1f3530da486c56/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3f105c5f73c2bf4ecd1f3530da486c56/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/9cd4d3dedff587c91dc19b09a61e988c/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/9cd4d3dedff587c91dc19b09a61e988c/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [org.webkit:android-jsc:r245459] /Users/ttn/.gradle/caches/transforms-2/files-2.1/0d2d97b9494835f94bc2452b0db78366/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /Users/ttn/.gradle/caches/transforms-2/files-2.1/0d2d97b9494835f94bc2452b0db78366/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/ttn/TTN-Exercise/node_modules/react-native-reanimated/android/build/.transforms/850c73455e479406acc3002968e8d286/react-native-reanimated-63/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/ttn/TTN-Exercise/node_modules/react-native-reanimated/android/build/.transforms/850c73455e479406acc3002968e8d286/react-native-reanimated-63/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/b53d4d419daeb8624358f6b201534664/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/b53d4d419daeb8624358f6b201534664/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/15d70ca80488b64990273bbf263c0a16/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
@@ -184,6 +211,8 @@ MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/ttn/.gradle/caches/trans
 MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/949c4c3ea53ffff7bfbe471b7ced550a/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/8c726a69760654a996beebecd11f4c48/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/8c726a69760654a996beebecd11f4c48/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/08b7f70788502e7fe5c57ef945a6713b/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/08b7f70788502e7fe5c57ef945a6713b/material-1.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/dc1b1298ed651ed2015da6fcf519fde1/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/dc1b1298ed651ed2015da6fcf519fde1/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/cd14a011cb372eb94f4e23d914348a92/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -192,38 +221,50 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ttn/.
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/1fc68d05f0152af01eb8986c8bd3d4d0/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/5b533ea5c844bb5802902a1f12adde4f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/5b533ea5c844bb5802902a1f12adde4f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/46edf29416524a2b5630592e8e2ee668/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/46edf29416524a2b5630592e8e2ee668/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/af5ec231c4731fa325abc2711b9808f8/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/af5ec231c4731fa325abc2711b9808f8/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3c12965b57c5e1e86b95d72fd3b56079/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3c12965b57c5e1e86b95d72fd3b56079/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/cd29c5acebbf52d957788348d0bdfad9/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/cd29c5acebbf52d957788348d0bdfad9/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/b9d3e3e54657ce0eb1c9f2606ed99009/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/b9d3e3e54657ce0eb1c9f2606ed99009/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/600af7d8b4c1a49f073ccc55128c2ca0/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/600af7d8b4c1a49f073ccc55128c2ca0/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/0682d44037e63aa75fb007c4221fc230/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/0682d44037e63aa75fb007c4221fc230/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/be7bea005cd12de06596d388b86940d0/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/be7bea005cd12de06596d388b86940d0/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/79a35254fe7386a97dced08ee170a15d/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/79a35254fe7386a97dced08ee170a15d/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/1eadbabcb348a5ccc29365639a3f8cf9/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/1eadbabcb348a5ccc29365639a3f8cf9/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/23a1bb1fc5d2b4e05ca984a0b1a28ad9/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/23a1bb1fc5d2b4e05ca984a0b1a28ad9/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/67e802207a49464f33b4464c0920b814/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/67e802207a49464f33b4464c0920b814/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/72848473da07d5805c641f4c414986cb/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/72848473da07d5805c641f4c414986cb/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/79a35254fe7386a97dced08ee170a15d/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/79a35254fe7386a97dced08ee170a15d/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/b42092715113546b31744f18fd918acc/core-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/b42092715113546b31744f18fd918acc/core-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/010eca709ebba2bd136bed1e05b6cd87/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/010eca709ebba2bd136bed1e05b6cd87/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/64e036f5d50542c926dd3b1d9ffbc5b0/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/64e036f5d50542c926dd3b1d9ffbc5b0/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/9d959c436098a8cc06674624eaddccaf/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/9d959c436098a8cc06674624eaddccaf/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/20845eaba722071cd719e0d185312e73/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/20845eaba722071cd719e0d185312e73/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/fe2dc7fc86bfac82c1908a087cb3dc5e/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/fe2dc7fc86bfac82c1908a087cb3dc5e/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/00fca3b82372c2168626273b40bfb330/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/00fca3b82372c2168626273b40bfb330/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/813aaf7d6bb80469e1f61dc1b20a9feb/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/813aaf7d6bb80469e1f61dc1b20a9feb/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/e2a3c36934de4dc0561002a6050950ef/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/e2a3c36934de4dc0561002a6050950ef/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/0795f535144fd1be777f0291773b764a/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/0795f535144fd1be777f0291773b764a/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/db8ad568b3c3d921cdfd0d9bcfc017af/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/db8ad568b3c3d921cdfd0d9bcfc017af/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/b0f99e977f2cafa9278d5f31f3d48834/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/b0f99e977f2cafa9278d5f31f3d48834/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/28ae6d34b782bbac95ddf917fab81c2c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/28ae6d34b782bbac95ddf917fab81c2c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/6ffa913b4799f5359fe13bbd17c6e88d/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/6ffa913b4799f5359fe13bbd17c6e88d/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/99b9e98e6716edd4b137f55ed41815d2/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/99b9e98e6716edd4b137f55ed41815d2/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/4f5f2d40c79c3cfc43bf4b32212fd98b/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/4f5f2d40c79c3cfc43bf4b32212fd98b/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/139d0fdd259ac77c55f980261c3da57f/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
