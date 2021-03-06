@@ -1,5 +1,5 @@
-<div align='center'>React-Native Navigations Assignment</div>
-
+# React-Native Navigations Assignment
+## Exercise
 1. Create Stack, Tab and Drawer Navigator (optional)
 2. Pass Props and Set it as header title
 
