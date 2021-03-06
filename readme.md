@@ -1,9 +1,9 @@
 # React-Native Navigations Assignment
 ## Exercise
 1. Create Stack, Tab and Drawer Navigator (optional)
-2. Pass Props and Set it as header title
-
-![homescreen](./src/assets/homescreen.png)
-![gotoscreen](./src/assets/gotoscreen.png)
+### Output
 ![tabscreen](./src/assets/tabscreen.png)
 ![profiletab](./src/assets/profiletab.png)
+2. Pass Props and Set it as header title
+### Output
+<img width="300px" src="./src/assets/homescreen.png">    <img width="300px" src="./src/assets/gotoscreen.png"> 
