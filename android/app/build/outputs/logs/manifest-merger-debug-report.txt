@@ -13,6 +13,7 @@ MERGED from [:react-native-gesture-handler] /Users/ttn/TTN-Exercise/node_modules
 MERGED from [:react-native-safe-area-context] /Users/ttn/TTN-Exercise/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /Users/ttn/TTN-Exercise/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] /Users/ttn/TTN-Exercise/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] /Users/ttn/TTN-Exercise/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3f105c5f73c2bf4ecd1f3530da486c56/jetified-react-native-0.63.4/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/9cd4d3dedff587c91dc19b09a61e988c/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /Users/ttn/.gradle/caches/transforms-2/files-2.1/0d2d97b9494835f94bc2452b0db78366/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
@@ -91,6 +92,8 @@ application
 ADDED from /Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:6:5-25:19
 MERGED from /Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:6:5-25:19
 MERGED from /Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from [:react-native-webview] /Users/ttn/TTN-Exercise/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /Users/ttn/TTN-Exercise/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3f105c5f73c2bf4ecd1f3530da486c56/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3f105c5f73c2bf4ecd1f3530da486c56/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/8c726a69760654a996beebecd11f4c48/soloader-0.9.0/AndroidManifest.xml:11:5-20
@@ -173,6 +176,8 @@ MERGED from [:react-native-screens] /Users/ttn/TTN-Exercise/node_modules/react-n
 MERGED from [:react-native-screens] /Users/ttn/TTN-Exercise/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Users/ttn/TTN-Exercise/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Users/ttn/TTN-Exercise/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/ttn/TTN-Exercise/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/ttn/TTN-Exercise/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3f105c5f73c2bf4ecd1f3530da486c56/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3f105c5f73c2bf4ecd1f3530da486c56/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/9cd4d3dedff587c91dc19b09a61e988c/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -285,3 +290,19 @@ uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3b7a2c45cb6c7bd434f3a094d008607b/flipper-0.54.0/AndroidManifest.xml:16:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3b7a2c45cb6c7bd434f3a094d008607b/flipper-0.54.0/AndroidManifest.xml:16:22-73
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] /Users/ttn/TTN-Exercise/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] /Users/ttn/TTN-Exercise/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-webview] /Users/ttn/TTN-Exercise/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from [:react-native-webview] /Users/ttn/TTN-Exercise/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-webview] /Users/ttn/TTN-Exercise/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-webview] /Users/ttn/TTN-Exercise/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+	android:resource
+		ADDED from [:react-native-webview] /Users/ttn/TTN-Exercise/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+	android:name
+		ADDED from [:react-native-webview] /Users/ttn/TTN-Exercise/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67

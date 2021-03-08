@@ -2376,6 +2376,10 @@
         "source": "/Users/ttn/.gradle/caches/transforms-2/files-2.1/08b7f70788502e7fe5c57ef945a6713b/material-1.1.0/res/drawable/test_custom_background.xml"
     },
     {
+        "merged": "/Users/ttn/TTN-Exercise/android/app/build/intermediates/res/merged/debug/xml_file_provider_paths.xml.flat",
+        "source": "/Users/ttn/TTN-Exercise/node_modules/react-native-webview/android/build/intermediates/packaged_res/debug/xml/file_provider_paths.xml"
+    },
+    {
         "merged": "/Users/ttn/TTN-Exercise/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "/Users/ttn/.gradle/caches/transforms-2/files-2.1/dc1b1298ed651ed2015da6fcf519fde1/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png"
     },

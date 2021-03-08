@@ -516,6 +516,21 @@ com/navigationproject/R.java
  com.navigationproject.R$style
  com.navigationproject.R$styleable
  com.navigationproject.R$xml
+com/reactnativecommunity/webview/R.java
+ com.reactnativecommunity.webview.R
+ com.reactnativecommunity.webview.R$anim
+ com.reactnativecommunity.webview.R$attr
+ com.reactnativecommunity.webview.R$bool
+ com.reactnativecommunity.webview.R$color
+ com.reactnativecommunity.webview.R$dimen
+ com.reactnativecommunity.webview.R$drawable
+ com.reactnativecommunity.webview.R$id
+ com.reactnativecommunity.webview.R$integer
+ com.reactnativecommunity.webview.R$layout
+ com.reactnativecommunity.webview.R$string
+ com.reactnativecommunity.webview.R$style
+ com.reactnativecommunity.webview.R$styleable
+ com.reactnativecommunity.webview.R$xml
 com/facebook/nativeimagetranscoder/R.java
  com.facebook.nativeimagetranscoder.R
  com.facebook.nativeimagetranscoder.R$attr

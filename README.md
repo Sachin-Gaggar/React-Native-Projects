@@ -1,11 +1,22 @@
-# react-native-navigation
+### react-native-comp-2
 
-## Create Stack, Tab and Drawer Navigator (optional)
-### output
+##### Implement WebView, show Activity indicator when WebView is loading
 
-<img width="300px" src="./src/assets/profiletab.png">  <img width="300px" src="./src/assets/tabscreen.png">
+##### output:
 
-## Pass Props and Set it as header title
-### output
+<img width="300px" src="./src/assets/webview1.png"> <img width="300px" src="./src/assets/webview2.png">
 
-<img width="300px" src="./src/assets/homescreen.png">  <img width="300px" src="./src/assets/gotoscreen.png">
+##### Use a switch to show hide the Slider and below slider show the slider value
+
+##### Output:
+
+<img width="300px" src="./src/assets/switch1.png"> <img width="300px" src="./src/assets/switch2.png">
+<img width="300px" src="./src/assets/switch3.png"> <img width="300px" src="./src/assets/switch4.png">
+
+#### Using api https://reqres.in/api/users?page=1 Render a Flatlist and implement pagination and pull to refresh show activity indicator below the flatlist when api is being called for the next page, use RefreshControl to show Activity indicator on top in case of pull to refresh
+
+##### Output:
+
+<img width="300px" src="./src/assets/flatList1.png"> <img width="300px" src="./src/assets/flatList2.png">
+<img width="300px" src="./src/assets/flatList3.png"> <img width="300px" src="./src/assets/flatList4.png">
+<img width="300px" src="./src/assets/flatList5.png">
