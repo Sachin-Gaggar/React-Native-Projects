@@ -20,6 +20,7 @@
 <img width="300px" src="./src/assets/flatList1.png"> <img width="300px" src="./src/assets/flatList2.png">
 <img width="300px" src="./src/assets/flatList3.png"> <img width="300px" src="./src/assets/flatList4.png">
 <img width="300px" src="./src/assets/flatList5.png">
+
 Video:
 https://user-images.githubusercontent.com/71544176/110378712-ebc7ba80-807b-11eb-972a-882b3b5dfd88.mp4
 
