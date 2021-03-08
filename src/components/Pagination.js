@@ -28,10 +28,10 @@ const renderItem = ({ item }) => {
 
 async function dataCall(page, setData, data) {
   try {
-    console.log("yo");
+    
     const result = await fetch("https://reqres.in/api/users?page=" + page);
     const newData = await result.json();
-    console.log(newData.data);
+    
     if (page == 1) {
       setData(newData.data);
     } else {
