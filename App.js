@@ -1,116 +1,260 @@
-import React, { useState } from "react";
+import React from "react";
 import {
-  SafeAreaView,
   View,
-  FlatList,
   StyleSheet,
   Text,
-  StatusBar,
-  ActivityIndicator,
-  RefreshControl,
+  ScrollView,
+  Image,
+  TouchableOpacity,
 } from "react-native";
+import { NavigationContainer, StackActions } from "@react-navigation/native";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { createStackNavigator } from "@react-navigation/stack";
 
-console.disableYellowBox = true;
-
-const DATA = [
-  {
-    id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
-    title: "First Item",
-  },
-  {
-    id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
-    title: "Second Item",
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d72",
-    title: "Third Item",
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d74",
-    title: "Fourth Item",
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d52",
-    title: "Fifth Item",
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d62",
-    title: "Sixth Item",
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d32",
-    title: "Seventh Item",
-  },
-];
-
-const Item = ({ title, index }) => {
-  console.log("Rendered Item, ", index);
+function HomeScreen() {
+  const filterItmes = [
+    "Polo Shirts",
+    "Dress Shirts",
+    "Shorts",
+    "T-Shirts & V-Necks",
+    "Suits",
+  ];
   return (
-    <View style={styles.item}>
-      <Text style={styles.title}>{title}</Text>
+    <View style={styles.container}>
+      <View style={styles.tab}>
+        <View style={styles.item}>
+          <Text style={styles.fade}>195 items</Text>
+        </View>
+        <View style={styles.sort}>
+          <TouchableOpacity>
+            <Image
+              style={styles.img}
+              source={require("../TTN-Exercise/src/assets/sort.png")}
+            />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <View>
+              <Text style={styles.longTxt}>SORT</Text>
+            </View>
+          </TouchableOpacity>
+
+          <View>
+            <Text style={styles.fade}> | </Text>
+          </View>
+          <TouchableOpacity>
+            <Image
+              style={styles.img}
+              source={require("../TTN-Exercise/src/assets/filter.png")}
+            />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <View>
+              <Text style={styles.strongTxt}>FILTER</Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </View>
+      <View>
+        <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+          {filterItmes.map((items) => (
+            <TouchableOpacity>
+              <View style={styles.shadowBox}>
+                <Text style={styles.strongTxt}>{items}</Text>
+              </View>
+            </TouchableOpacity>
+          ))}
+        </ScrollView>
+      </View>
+      <ScrollView>
+        <View style={styles.body}>
+          <View style={styles.content}>
+            <Image
+              style={styles.image}
+              source={require("../TTN-Exercise/src/assets/shirt1.jpg")}
+            />
+          </View>
+          <View style={styles.content}>
+            <Image
+              style={styles.image}
+              source={require("../TTN-Exercise/src/assets/shirt2.jpg")}
+            />
+          </View>
+        </View>
+      </ScrollView>
     </View>
   );
-};
+}
 
-const App = () => {
-  const [data, setData] = useState(DATA);
-  const [isRefreshing, refreshList] = useState(false);
-  const [isLoading, callApi] = useState(false);
-  const renderItem = ({ item, index }) => (
-    <Item index={index} title={item.title} />
-  );
-
+function CategoriesScreen() {
   return (
-    <SafeAreaView style={styles.container}>
-      <FlatList
-        data={data}
-        renderItem={renderItem}
-        refreshControl={
-          <RefreshControl
-            refreshing={isRefreshing}
-            onRefresh={() => {
-              refreshList(true);
-              setTimeout(() => {
-                setData(DATA);
-                refreshList(false);
-              }, 5000);
-            }}
-          />
-        }
-        // keyExtractor={(item) => item.id}
-        onEndReachedThreshold={0.5}
-        onEndReached={() => {
-          console.log("OnEndReached Called");
-          callApi(true);
-          setTimeout(() => {
-            setData([...data, ...data]);
-            callApi(false);
-          }, 5000);
-        }}
-        // ListFooterComponent
-      />
-      {isLoading ? (
-        <View>
-          <ActivityIndicator size={"small"} animating={true} color={"red"} />
-        </View>
-      ) : null}
-    </SafeAreaView>
+    <View style={styles.container}>
+      <Text>Categories Screen</Text>
+    </View>
+  );
+}
+function MyCartScreen() {
+  return (
+    <View style={styles.container}>
+      <Text>My Cart</Text>
+    </View>
+  );
+}
+function WishListScreen() {
+  return (
+    <View style={styles.container}>
+      <Text>Whish list</Text>
+    </View>
+  );
+}
+function AccountScreen() {
+  return (
+    <View style={styles.container}>
+      <Text>Account</Text>
+    </View>
+  );
+}
+
+const Tab = createBottomTabNavigator();
+
+const TabContainer = () => {
+  return (
+    <Tab.Navigator
+      screenOptions={({ route }) => ({
+        tabBarIcon: ({ focused }) => {
+          if (route.name === "Home") {
+            if (focused) {
+              return (
+                <Image
+                  style={styles.icon}
+                  source={require("../TTN-Exercise/src/assets/HomeActive.png")}
+                />
+              );
+            } else {
+              return (
+                <Image
+                  style={styles.icon}
+                  source={require("../TTN-Exercise/src/assets/HomeInactive.png")}
+                />
+              );
+            }
+          } else if (route.name === "Categories") {
+            return (
+              <Image
+                style={styles.icon}
+                source={require("../TTN-Exercise/src/assets/categories.png")}
+              />
+            );
+          } else if (route.name === "My Cart") {
+            return (
+              <Image
+                style={styles.icon}
+                source={require("../TTN-Exercise/src/assets/shopping.png")}
+              />
+            );
+          } else if (route.name === "Wish List") {
+            return (
+              <Image
+                style={styles.icon}
+                source={require("../TTN-Exercise/src/assets/wish.png")}
+              />
+            );
+          } else {
+            return (
+              <Image
+                style={styles.icon}
+                source={require("../TTN-Exercise/src/assets/account.png")}
+              />
+            );
+          }
+        },
+      })}
+    >
+      <Tab.Screen name='Home' component={HomeStack} />
+      <Tab.Screen name='Categories' component={CategoriesScreen} />
+      <Tab.Screen name='My Cart' component={MyCartScreen} />
+      <Tab.Screen name='Wish List' component={WishListScreen} />
+      <Tab.Screen name='Account' component={AccountScreen} />
+    </Tab.Navigator>
   );
 };
-
+const StackScreen = createStackNavigator();
+function HomeStack() {
+  return (
+    <StackScreen.Navigator>
+      <StackScreen.Screen
+        name='Home'
+        component={HomeScreen}
+        options={{
+          title: "Men Clothing",
+        }}
+      />
+    </StackScreen.Navigator>
+  );
+}
+const App = () => {
+  return (
+    <NavigationContainer>
+      <TabContainer />
+    </NavigationContainer>
+  );
+};
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "white",
+  },
+  tab: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    borderBottomWidth: 1,
+    alignItems: "center",
+    padding: 15,
+    borderBottomColor: "#efefef",
+  },
+  fade: {
+    color: "#bbbbbb",
   },
   item: {
-    backgroundColor: "#f9c2ff",
-    padding: 20,
-    marginVertical: 8,
-    marginHorizontal: 16,
+    flex: 5,
   },
-  title: {
-    fontSize: 32,
+  sort: {
+    flex: 4,
+    flexDirection: "row",
+    justifyContent: "space-around",
+    alignItems: "center",
   },
+  img: {
+    width: 20,
+    height: 20,
+  },
+  strongTxt: {
+    fontWeight: "500",
+    fontSize: 14,
+  },
+
+  longTxt: {
+    fontSize: 18,
+  },
+  shadowBox: {
+    padding: 10,
+    paddingHorizontal: 15,
+    borderRadius: 10,
+    margin: 10,
+    backgroundColor: "#eeeeee",
+  },
+  body: {
+    flexDirection: "row",
+    alignItems: "flex-start",
+    flexWrap: "wrap",
+  },
+  content: {
+    width: "47%",
+    marginHorizontal: 6,
+    marginTop: 10,
+    marginBottom: 20,
+  },
+  image: { height: 300, width: "100%", resizeMode: "cover" },
+  icon: {},
 });
 
 export default App;

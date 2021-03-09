@@ -1,22 +1,15 @@
-### react-native-comp-2
+<img width="300px" height="400px" src="./src/assets/question.png">
 
-##### Implement WebView, show Activity indicator when WebView is loading
+#### Create the above screen in React-Native:
 
-##### output:
+Tab Navigation needs to integrated
+Home tab must be selected
+Icons can be fetched from icons8.com
+Sort, filter, wishlist should be touchable
+No need for back icon
 
-<img width="300px" src="./src/assets/webview1.png"> <img width="300px" src="./src/assets/webview2.png">
+#### Output:
 
-##### Use a switch to show hide the Slider and below slider show the slider value
+<img width="300px" src="./src/assets/video.gif">
 
-##### Output:
-
-<img width="300px" src="./src/assets/switch1.png"> <img width="300px" src="./src/assets/switch2.png">
-<img width="300px" src="./src/assets/switch3.png"> <img width="300px" src="./src/assets/switch4.png">
-
-#### Using api https://reqres.in/api/users?page=1 Render a Flatlist and implement pagination and pull to refresh show activity indicator below the flatlist when api is being called for the next page, use RefreshControl to show Activity indicator on top in case of pull to refresh
-
-##### Output:
-
-<img width="300px" src="./src/assets/flatList1.png"> <img width="300px" src="./src/assets/flatList2.png">
-<img width="300px" src="./src/assets/flatList3.png"> <img width="300px" src="./src/assets/flatList4.png">
-<img width="300px" src="./src/assets/flatList5.png">
+<img width="300px" src="./src/assets/screen.png">
