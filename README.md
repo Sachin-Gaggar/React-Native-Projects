@@ -1,15 +1,13 @@
-<img width="300px" height="400px" src="./src/assets/question.png">
+### react-native Component 5
 
-#### Create the above screen in React-Native:
-
-Tab Navigation needs to integrated
-Home tab must be selected
-Icons can be fetched from icons8.com
-Sort, filter, wishlist should be touchable
-No need for back icon
+#### Use Alert, intercept Back Press and show the text to confirm go back.
 
 #### Output:
 
-<img width="300px" src="./src/assets/video.gif">
+<img width="300px" src="./src/assets/Back.gif">
 
-<img width="300px" src="./src/assets/screen.png">
+#### Use Clipboard to move text from one screen to another.
+
+#### Output:
+
+<img width="300px" src="./src/assets/ClipBoard.gif">
