@@ -1,15 +1,9 @@
-<img width="300px" height="400px" src="./src/assets/question.png">
+## Assignment
 
-#### Create the above screen in React-Native:
+### Create the given screen
 
-Tab Navigation needs to integrated
-Home tab must be selected
-Icons can be fetched from icons8.com
-Sort, filter, wishlist should be touchable
-No need for back icon
+### Create the custom Activity Indicator by Modal and gif
 
-#### Output:
+#### Output
 
-<img width="300px" src="./src/assets/video.gif">
-
-<img width="300px" src="./src/assets/screen.png">
+<img src="./src/assets/video.gif">

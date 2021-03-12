@@ -8,6 +8,7 @@ MERGED from /Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:1:1
 MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3b7a2c45cb6c7bd434f3a094d008607b/flipper-0.54.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/f9c79217b3e80f14a471f1c0bd2bcc2f/flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/6d7fe8fad54d2b63eb4758cc726f97f6/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-community_checkbox] /Users/ttn/TTN-Exercise/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-community_masked-view] /Users/ttn/TTN-Exercise/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /Users/ttn/TTN-Exercise/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /Users/ttn/TTN-Exercise/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
@@ -17,6 +18,7 @@ MERGED from [:react-native-webview] /Users/ttn/TTN-Exercise/node_modules/react-n
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3f105c5f73c2bf4ecd1f3530da486c56/jetified-react-native-0.63.4/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/9cd4d3dedff587c91dc19b09a61e988c/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /Users/ttn/.gradle/caches/transforms-2/files-2.1/0d2d97b9494835f94bc2452b0db78366/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] /Users/ttn/TTN-Exercise/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] /Users/ttn/TTN-Exercise/node_modules/react-native-reanimated/android/build/.transforms/850c73455e479406acc3002968e8d286/react-native-reanimated-63/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/b53d4d419daeb8624358f6b201534664/flipper-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/15d70ca80488b64990273bbf263c0a16/stetho-2.2.0/AndroidManifest.xml:2:1-9:12
@@ -166,6 +168,8 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/ttn/.gra
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/f9c79217b3e80f14a471f1c0bd2bcc2f/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/6d7fe8fad54d2b63eb4758cc726f97f6/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/6d7fe8fad54d2b63eb4758cc726f97f6/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-community_checkbox] /Users/ttn/TTN-Exercise/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /Users/ttn/TTN-Exercise/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] /Users/ttn/TTN-Exercise/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] /Users/ttn/TTN-Exercise/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /Users/ttn/TTN-Exercise/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -184,6 +188,8 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ttn/.g
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/9cd4d3dedff587c91dc19b09a61e988c/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [org.webkit:android-jsc:r245459] /Users/ttn/.gradle/caches/transforms-2/files-2.1/0d2d97b9494835f94bc2452b0db78366/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /Users/ttn/.gradle/caches/transforms-2/files-2.1/0d2d97b9494835f94bc2452b0db78366/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/ttn/TTN-Exercise/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/ttn/TTN-Exercise/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] /Users/ttn/TTN-Exercise/node_modules/react-native-reanimated/android/build/.transforms/850c73455e479406acc3002968e8d286/react-native-reanimated-63/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] /Users/ttn/TTN-Exercise/node_modules/react-native-reanimated/android/build/.transforms/850c73455e479406acc3002968e8d286/react-native-reanimated-63/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/b53d4d419daeb8624358f6b201534664/flipper-2.2.0/AndroidManifest.xml:5:5-7:41

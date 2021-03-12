@@ -1,58 +1,24 @@
-import React from "react";
-import { View, StyleSheet, Text } from "react-native";
+import React, { Component } from "react";
+import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import HomeScreen from "../components/HomeScreen";
+import ModalGif from "./ModalGif";
+import Sectionlist from "./Sectionlist";
 
-export function CategoriesScreen() {
-  return (
-    <View style={styles.container}>
-      <Text>Categories Screen</Text>
-    </View>
-  );
-}
+const Stack = createStackNavigator();
 
-export function MyCartScreen() {
-  return (
-    <View style={styles.container}>
-      <Text>My Cart</Text>
-    </View>
-  );
+export default class Stackscreen extends Component {
+  render() {
+    return (
+      <NavigationContainer>
+        <Stack.Navigator initialRouteName='Home'>
+          <Stack.Screen name='Home' component={ModalGif} />
+          <Stack.Screen
+            name='Sectionlist'
+            component={Sectionlist}
+            options={{ headerShown: false }}
+          />
+        </Stack.Navigator>
+      </NavigationContainer>
+    );
+  }
 }
-export function WishListScreen() {
-  return (
-    <View style={styles.container}>
-      <Text>Whish list</Text>
-    </View>
-  );
-}
-export function AccountScreen() {
-  return (
-    <View style={styles.container}>
-      <Text>Account</Text>
-    </View>
-  );
-}
-
-const StackScreen = createStackNavigator();
-export function HomeStack() {
-  return (
-    <StackScreen.Navigator>
-      <StackScreen.Screen
-        name='Home'
-        component={HomeScreen}
-        options={{
-          title: "Men Clothing",
-        }}
-      />
-    </StackScreen.Navigator>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "white",
-  },
-});

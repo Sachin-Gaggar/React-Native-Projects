@@ -1,260 +1,165 @@
 import React from "react";
 import {
+  SafeAreaView,
+  SectionList,
+  StatusBar,
+  Text,
   View,
   StyleSheet,
-  Text,
-  ScrollView,
   Image,
+  FlatList,
+  TextInput,
   TouchableOpacity,
+  Button,
 } from "react-native";
-import { NavigationContainer, StackActions } from "@react-navigation/native";
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { createStackNavigator } from "@react-navigation/stack";
+import CheckBox from "@react-native-community/checkbox";
+import LinearGradient from "react-native-linear-gradient";
+import sampleData from "../TTN-Exercise/src/assets/sample.json";
+const sample = sampleData.reduce((acc, cur) => {
+  let TITLE = cur.primaryCategory.categoryName;
+  let newTitle = true;
+  acc.forEach((item, index) => {
+    if (item.title === TITLE) {
+      acc[index].data.push(cur.productName);
+      newTitle = false;
+    }
+  });
+  if (newTitle) {
+    acc.push({ title: TITLE, data: [cur.productName] });
+    return acc;
+  } else {
+    return acc;
+  }
+}, []);
 
-function HomeScreen() {
-  const filterItmes = [
-    "Polo Shirts",
-    "Dress Shirts",
-    "Shorts",
-    "T-Shirts & V-Necks",
-    "Suits",
-  ];
-  return (
-    <View style={styles.container}>
-      <View style={styles.tab}>
-        <View style={styles.item}>
-          <Text style={styles.fade}>195 items</Text>
-        </View>
-        <View style={styles.sort}>
-          <TouchableOpacity>
-            <Image
-              style={styles.img}
-              source={require("../TTN-Exercise/src/assets/sort.png")}
-            />
-          </TouchableOpacity>
-          <TouchableOpacity>
-            <View>
-              <Text style={styles.longTxt}>SORT</Text>
-            </View>
-          </TouchableOpacity>
+export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: {},
+      checked: false,
+    };
+  }
+  deleteName = (item) => {
+    let { name } = this.state;
+    delete name[item];
+    this.setState({ name: name });
+  };
+  renderItem = (item) => {
+    return (
+      <View style={styles.items}>
+        <Text>{item}</Text>
 
-          <View>
-            <Text style={styles.fade}> | </Text>
-          </View>
-          <TouchableOpacity>
-            <Image
-              style={styles.img}
-              source={require("../TTN-Exercise/src/assets/filter.png")}
-            />
-          </TouchableOpacity>
-          <TouchableOpacity>
-            <View>
-              <Text style={styles.strongTxt}>FILTER</Text>
-            </View>
-          </TouchableOpacity>
-        </View>
-      </View>
-      <View>
-        <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
-          {filterItmes.map((items) => (
-            <TouchableOpacity>
-              <View style={styles.shadowBox}>
-                <Text style={styles.strongTxt}>{items}</Text>
-              </View>
-            </TouchableOpacity>
-          ))}
-        </ScrollView>
-      </View>
-      <ScrollView>
-        <View style={styles.body}>
-          <View style={styles.content}>
-            <Image
-              style={styles.image}
-              source={require("../TTN-Exercise/src/assets/shirt1.jpg")}
-            />
-          </View>
-          <View style={styles.content}>
-            <Image
-              style={styles.image}
-              source={require("../TTN-Exercise/src/assets/shirt2.jpg")}
-            />
-          </View>
-        </View>
-      </ScrollView>
-    </View>
-  );
-}
-
-function CategoriesScreen() {
-  return (
-    <View style={styles.container}>
-      <Text>Categories Screen</Text>
-    </View>
-  );
-}
-function MyCartScreen() {
-  return (
-    <View style={styles.container}>
-      <Text>My Cart</Text>
-    </View>
-  );
-}
-function WishListScreen() {
-  return (
-    <View style={styles.container}>
-      <Text>Whish list</Text>
-    </View>
-  );
-}
-function AccountScreen() {
-  return (
-    <View style={styles.container}>
-      <Text>Account</Text>
-    </View>
-  );
-}
-
-const Tab = createBottomTabNavigator();
-
-const TabContainer = () => {
-  return (
-    <Tab.Navigator
-      screenOptions={({ route }) => ({
-        tabBarIcon: ({ focused }) => {
-          if (route.name === "Home") {
-            if (focused) {
-              return (
-                <Image
-                  style={styles.icon}
-                  source={require("../TTN-Exercise/src/assets/HomeActive.png")}
-                />
-              );
-            } else {
-              return (
-                <Image
-                  style={styles.icon}
-                  source={require("../TTN-Exercise/src/assets/HomeInactive.png")}
-                />
-              );
-            }
-          } else if (route.name === "Categories") {
-            return (
-              <Image
-                style={styles.icon}
-                source={require("../TTN-Exercise/src/assets/categories.png")}
-              />
-            );
-          } else if (route.name === "My Cart") {
-            return (
-              <Image
-                style={styles.icon}
-                source={require("../TTN-Exercise/src/assets/shopping.png")}
-              />
-            );
-          } else if (route.name === "Wish List") {
-            return (
-              <Image
-                style={styles.icon}
-                source={require("../TTN-Exercise/src/assets/wish.png")}
-              />
-            );
-          } else {
-            return (
-              <Image
-                style={styles.icon}
-                source={require("../TTN-Exercise/src/assets/account.png")}
-              />
-            );
+        <CheckBox
+          boxType='square'
+          tintColor={"#555555"}
+          style={{
+            width: 20,
+            height: 20,
+          }}
+          onValueChange={(value) =>
+            value
+              ? this.setState({
+                  name: { [item]: "checked", ...this.state.name },
+                })
+              : this.deleteName(item)
           }
-        },
-      })}
-    >
-      <Tab.Screen name='Home' component={HomeStack} />
-      <Tab.Screen name='Categories' component={CategoriesScreen} />
-      <Tab.Screen name='My Cart' component={MyCartScreen} />
-      <Tab.Screen name='Wish List' component={WishListScreen} />
-      <Tab.Screen name='Account' component={AccountScreen} />
-    </Tab.Navigator>
-  );
-};
-const StackScreen = createStackNavigator();
-function HomeStack() {
-  return (
-    <StackScreen.Navigator>
-      <StackScreen.Screen
-        name='Home'
-        component={HomeScreen}
-        options={{
-          title: "Men Clothing",
-        }}
-      />
-    </StackScreen.Navigator>
-  );
+        />
+      </View>
+    );
+  };
+  Continue = () => {
+    return (
+      <TouchableOpacity style={styles.continue}>
+        <Text style={styles.txtButton}>Continue</Text>
+      </TouchableOpacity>
+    );
+  };
+
+  render() {
+    const { name } = this.state;
+    console.log(name);
+    return (
+      <>
+        <LinearGradient
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 0 }}
+          colors={["rgba(26,36,68,0.9)", "rgba(0,73,78,0.9)"]}
+        >
+          <SafeAreaView />
+
+          <Text style={styles.lightHeading}>
+            Store Selected :
+            <Text style={styles.boldHeading}> Coop Moolndal Aby</Text>
+          </Text>
+          <TextInput />
+          <View style={styles.search}>
+            <Image
+              style={styles.img}
+              source={require("../TTN-Exercise/src/assets/check.png")}
+            />
+          </View>
+        </LinearGradient>
+        <SectionList
+          sections={sample}
+          keyExtractor={(item, index) => [item + index]}
+          renderItem={({ item }) => this.renderItem(item)}
+          renderSectionHeader={({ section }) => (
+            <View style={styles.items}>
+              <Text style={styles.title}>{section.title}</Text>
+            </View>
+          )}
+        />
+        {!(Object.keys(name).length === 0) ? this.Continue() : null}
+        <SafeAreaView />
+      </>
+    );
+  }
 }
-const App = () => {
-  return (
-    <NavigationContainer>
-      <TabContainer />
-    </NavigationContainer>
-  );
-};
+
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "white",
-  },
-  tab: {
+  items: {
+    padding: 10,
+    paddingVertical: 20,
     flexDirection: "row",
     justifyContent: "space-between",
+    alignItems: "center",
+    borderBottomColor: "#f1f1f1",
     borderBottomWidth: 1,
-    alignItems: "center",
-    padding: 15,
-    borderBottomColor: "#efefef",
   },
-  fade: {
-    color: "#bbbbbb",
+  lightHeading: {
+    color: "white",
+    padding: 10,
   },
-  item: {
-    flex: 5,
+  boldHeading: {
+    fontWeight: "bold",
   },
-  sort: {
-    flex: 4,
-    flexDirection: "row",
-    justifyContent: "space-around",
-    alignItems: "center",
+  title: {
+    fontSize: 15,
+    fontWeight: "700",
+  },
+  search: {
+    backgroundColor: "#eeeeee",
+    width: "90%",
+    padding: 7,
+    borderRadius: 10,
+    marginHorizontal: "5%",
+    marginBottom: 10,
   },
   img: {
-    width: 20,
-    height: 20,
+    position: "absolute",
+    top: 3,
+    left: 3,
   },
-  strongTxt: {
-    fontWeight: "500",
-    fontSize: 14,
+  continue: {
+    backgroundColor: "rgba(0,73,78,0.9)",
+    color: "white",
+    alignItems: "center",
+    padding: 7,
   },
-
-  longTxt: {
-    fontSize: 18,
+  txtButton: {
+    marginVertical: 5,
+    fontSize: 20,
+    color: "white",
   },
-  shadowBox: {
-    padding: 10,
-    paddingHorizontal: 15,
-    borderRadius: 10,
-    margin: 10,
-    backgroundColor: "#eeeeee",
-  },
-  body: {
-    flexDirection: "row",
-    alignItems: "flex-start",
-    flexWrap: "wrap",
-  },
-  content: {
-    width: "47%",
-    marginHorizontal: 6,
-    marginTop: 10,
-    marginBottom: 20,
-  },
-  image: { height: 300, width: "100%", resizeMode: "cover" },
-  icon: {},
 });
-
-export default App;
