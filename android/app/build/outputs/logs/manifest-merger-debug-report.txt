@@ -8,6 +8,7 @@ MERGED from /Users/ttn/TTN-Exercise/android/app/src/main/AndroidManifest.xml:1:1
 MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/3b7a2c45cb6c7bd434f3a094d008607b/flipper-0.54.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/f9c79217b3e80f14a471f1c0bd2bcc2f/flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/6d7fe8fad54d2b63eb4758cc726f97f6/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-async-storage_async-storage] /Users/ttn/TTN-Exercise/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-community_checkbox] /Users/ttn/TTN-Exercise/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-community_masked-view] /Users/ttn/TTN-Exercise/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /Users/ttn/TTN-Exercise/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
@@ -168,6 +169,8 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/ttn/.gra
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/f9c79217b3e80f14a471f1c0bd2bcc2f/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/6d7fe8fad54d2b63eb4758cc726f97f6/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/ttn/.gradle/caches/transforms-2/files-2.1/6d7fe8fad54d2b63eb4758cc726f97f6/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-async-storage_async-storage] /Users/ttn/TTN-Exercise/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/ttn/TTN-Exercise/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_checkbox] /Users/ttn/TTN-Exercise/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_checkbox] /Users/ttn/TTN-Exercise/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] /Users/ttn/TTN-Exercise/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
