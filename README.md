@@ -2,4 +2,4 @@
 
 #### Output
 
-<img src="./src/assets/video.gif">
+<img src="./src/assets/Video.gif">
