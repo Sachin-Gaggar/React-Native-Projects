@@ -5,6 +5,7 @@
 import { AppRegistry } from "react-native";
 
 import { name as appName } from "./app.json";
-import AnimationEx from "./src/components/AnimationEx.js";
+import GestureEx from "./src/components/GestureEx.js";
+import MapViewEx from "./src/components/MapViewEx";
 
-AppRegistry.registerComponent(appName, () => AnimationEx);
+AppRegistry.registerComponent(appName, () => MapViewEx);
