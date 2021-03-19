@@ -1,17 +1,15 @@
-## React Native Component 6
+## Redux Architecture
 
-### Create a draggable ball 
+## Create an onboarding screen provided in the link with following functionalities:
 
-#### Output
+It will have an Image View, A text View and a dots view at the bottom.
+On swiping, your image and text will change with fade in and fade out animation
+Your dot indicator will also move as per gesture.
+Should support both left and right swipes
 
-<img src="./src/assets/video1.gif">
-
-
-### Create a map view
-1.  Show your current location 
-2. Set your current location on drag i.e,  current location functionality in zomato application.
-3. Create an array of some static coordinates and show marker for those coordinates on map view.
-
-#### Output
+### Output:
 
 <img src="./src/assets/video2.gif">
+
+<img src='./src/assets/screenshot1.png'> <img src='./src/assets/screenshot2.png'>
+<img src='./src/assets/screenshot3.png'>
