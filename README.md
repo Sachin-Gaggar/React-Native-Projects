@@ -9,7 +9,7 @@ Should support both left and right swipes
 
 ### Output:
 
-<img src="./src/assets/video2.gif">
+<img src="./src/assets/video.gif">
 
 <img src='./src/assets/screenshot1.png'> <img src='./src/assets/screenshot2.png'>
 <img src='./src/assets/screenshot3.png'>
