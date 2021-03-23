@@ -7,8 +7,8 @@ import {
   HomeStack,
   MyCartScreen,
   WishListScreen,
-  AccountScreen,
 } from "../components/StackScreen";
+import AccountScreen from "./AccountScreen";
 
 const Tab = createBottomTabNavigator();
 
@@ -34,6 +34,7 @@ const TabContainer = () => {
           }
         },
       })}
+      initialRouteName={"Account"}
     >
       <Tab.Screen name='Home' component={HomeStack} />
       <Tab.Screen name='Categories' component={CategoriesScreen} />

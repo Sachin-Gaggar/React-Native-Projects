@@ -25,13 +25,6 @@ export function WishListScreen() {
     </View>
   );
 }
-export function AccountScreen() {
-  return (
-    <View style={styles.container}>
-      <Text>Account</Text>
-    </View>
-  );
-}
 
 const StackScreen = createStackNavigator();
 export function HomeStack() {
