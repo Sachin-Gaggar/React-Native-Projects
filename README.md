@@ -1,4 +1,4 @@
-## React native Screens
+## Timer
 
 #### Output:
 
