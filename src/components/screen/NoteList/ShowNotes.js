@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
   View,
   Alert,
+  ScrollView,
 } from 'react-native';
 import Edit from './Edit';
 @inject('store')
@@ -45,16 +46,18 @@ export default class ShowNotes extends React.Component {
             <Text style={styles.bold}>You do not have any notes</Text>
           </View>
         ) : (
-          this.props.store.data.map((item, index) => (
-            <TouchableOpacity
-              key={item.id}
-              style={styles.list}
-              onPress={() => this.props.store.editButton(item.id)}
-              onLongPress={() => this.delete(item.id)}>
-              <Text style={styles.titleTxt}>{item.title}</Text>
-              <Text style={styles.notesTxt}>{item.note}</Text>
-            </TouchableOpacity>
-          ))
+          <ScrollView>
+            {this.props.store.data.map((item, index) => (
+              <TouchableOpacity
+                key={item.id}
+                style={styles.list}
+                onPress={() => this.props.store.editButton(item.id)}
+                onLongPress={() => this.delete(item.id)}>
+                <Text style={styles.titleTxt}>{item.title}</Text>
+                <Text style={styles.notesTxt}>{item.note}</Text>
+              </TouchableOpacity>
+            ))}
+          </ScrollView>
         )}
       </>
     );
