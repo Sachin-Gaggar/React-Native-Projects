@@ -1,0 +1,6 @@
+module Pods_MobxProject_MobxProjectTests {
+  umbrella header "Pods-MobxProject-MobxProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

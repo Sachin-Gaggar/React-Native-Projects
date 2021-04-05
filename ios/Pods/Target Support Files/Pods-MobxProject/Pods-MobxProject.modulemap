@@ -1,0 +1,6 @@
+module Pods_MobxProject {
+  umbrella header "Pods-MobxProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
