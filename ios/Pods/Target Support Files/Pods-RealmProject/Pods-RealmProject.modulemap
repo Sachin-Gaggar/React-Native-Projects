@@ -1,0 +1,6 @@
+module Pods_RealmProject {
+  umbrella header "Pods-RealmProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
