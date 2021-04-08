@@ -1,0 +1,6 @@
+module Pods_GeoloacationAndMedia {
+  umbrella header "Pods-GeoloacationAndMedia-umbrella.h"
+
+  export *
+  module * { export * }
+}
