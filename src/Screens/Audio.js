@@ -4,10 +4,13 @@ import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import TrackPlayer, {
   usePlaybackState,
   useTrackPlayerEvents,
+  useTrackPlayerProgress,
 } from 'react-native-track-player';
+import Slider from 'react-native-slider';
+
 import playlistData from '../Playlist/playlist.json';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-
+import {styles} from './styles';
 export default function Audio(props) {
   const [trackTitle, setTrackTitle] = useState('None');
   const [trackArtwork, setTrackArtwork] = useState();
@@ -104,9 +107,10 @@ export default function Audio(props) {
         return 'Buffering';
     }
   };
+  const progress = useTrackPlayerProgress();
   return (
     <View style={styles.container}>
-      <View style={styles.card}>
+      <View style={styles.audioCard}>
         <View>
           <Image style={styles.img} source={{uri: trackArtwork}} />
         </View>
@@ -114,17 +118,26 @@ export default function Audio(props) {
           <Text>{trackTitle}</Text>
           <Text>{trackArtist}</Text>
         </View>
-        <View style={styles.row}>
-          <TouchableOpacity onPress={() => previousButton()}>
+        <View style={styles.slider}>
+          <Slider
+            value={progress.position}
+            minimumTrackTintColor="red"
+            maximumValue={progress.duration}
+          />
+        </View>
+        <View style={styles.audioContainer}>
+          <TouchableOpacity
+            style={styles.button}
+            onPress={() => previousButton()}>
             <Icon name={'skip-previous'} size={30} />
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => playButton()}>
+          <TouchableOpacity style={styles.button} onPress={() => playButton()}>
             <Icon
               name={state() === 'Playing' ? 'pause' : 'play-arrow'}
               size={30}
             />
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => nextButton()}>
+          <TouchableOpacity style={styles.button} onPress={() => nextButton()}>
             <Icon name={'skip-next'} size={30} />
           </TouchableOpacity>
         </View>
@@ -132,41 +145,3 @@ export default function Audio(props) {
     </View>
   );
 }
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  card: {
-    width: '90%',
-    padding: 15,
-    backgroundColor: '#FFFFFF',
-    borderColor: '#AAAAAA',
-    elevation: 2,
-    shadowColor: '#333333',
-    shadowOpacity: 0.9,
-    shadowOffset: {
-      height: 2,
-      width: 1,
-    },
-    shadowRadius: 5,
-    borderRadius: 10,
-    alignItems: 'center',
-  },
-  img: {
-    width: 150,
-    height: 100,
-    backgroundColor: 'grey',
-  },
-  row: {
-    flexDirection: 'row',
-    width: '100%',
-    alignItems: 'center',
-    justifyContent: 'space-around',
-  },
-  sign: {
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-});
