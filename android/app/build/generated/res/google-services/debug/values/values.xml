@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">691774840915-0enamp7up0540spuica2akh49o7sdtve.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">691774840915</string>
+    <string name="google_api_key" translatable="false">AIzaSyD50V6D59_k89QYEKWH8qL9FSl4UTt5Olg</string>
+    <string name="google_app_id" translatable="false">1:691774840915:android:7f1028bdbdc23fbda1a6a6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD50V6D59_k89QYEKWH8qL9FSl4UTt5Olg</string>
+    <string name="google_storage_bucket" translatable="false">reactnativefirebase-c404d.appspot.com</string>
+    <string name="project_id" translatable="false">reactnativefirebase-c404d</string>
+</resources>

@@ -1,0 +1,4 @@
+#Fri Apr 09 18:41:58 IST 2021
+base.0=/Users/ttn/Desktop/firebase/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
