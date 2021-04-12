@@ -1,0 +1,6 @@
+module Pods_SocialIntegration_SocialIntegrationTests {
+  umbrella header "Pods-SocialIntegration-SocialIntegrationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
