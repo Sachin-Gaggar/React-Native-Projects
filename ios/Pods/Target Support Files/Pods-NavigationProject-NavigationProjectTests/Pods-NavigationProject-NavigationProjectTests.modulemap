@@ -1,6 +1,0 @@
-module Pods_NavigationProject_NavigationProjectTests {
-  umbrella header "Pods-NavigationProject-NavigationProjectTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
