@@ -28,7 +28,7 @@ export default Card;
 const styles = StyleSheet.create({
   box: {
     alignItems: "center",
-    height
+    height: (8.5 * height) / 10
   },
   imageContainer: {
     flex: 1
