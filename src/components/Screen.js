@@ -187,12 +187,8 @@ class Screen extends Component {
       opacity0: new Animated.Value(1),
       opacity1: new Animated.Value(0),
       opacity2: new Animated.Value(0),
-      indicator: {
-        indicator0: true,
 
-        indicator1: false,
-        indicator2: false
-      }
+      index: 0
     };
   }
   swipe = new Animated.Value(0);
@@ -219,23 +215,16 @@ class Screen extends Component {
   });
   forwardSwipe = () => {
     items = this.state;
-    indicator = this.state.indicator;
     Object.values(items).forEach((opacity, index) => {
       if (index == 2) {
         //stop swiping at last page
       } else if (opacity._value == 1) {
-        Object.keys(indicator).forEach((indicatorKey) => {
-          if (indicatorKey == `indicator${index + 1}`) {
-            indicator[indicatorKey] = true;
-          } else {
-            indicator[indicatorKey] = false;
-          }
-        });
         Animated.timing(this.state[`opacity${index}`], {
           toValue: 0,
           duration: 300,
           useNativeDriver: false
         }).start();
+        this.setState({ index: index + 1 });
         Animated.timing(this.state[`opacity${index + 1}`], {
           toValue: 1,
           delay: 300,
@@ -247,25 +236,20 @@ class Screen extends Component {
   };
   backwardSwipe = () => {
     items = this.state;
-    indicator = this.state.indicator;
 
     Object.values(items).forEach((opacity, index) => {
+      // this.setState({ index });
+
       if (index == 0) {
         //Stop swiping at first page
       } else if (opacity._value == 1) {
-        console.log(index, "HEllo");
-        Object.keys(indicator).forEach((indicatorKey) => {
-          if (indicatorKey == `indicator${index - 1}`) {
-            indicator[indicatorKey] = true;
-          } else {
-            indicator[indicatorKey] = false;
-          }
-        });
         Animated.timing(this.state[`opacity${index}`], {
           toValue: 0,
           duration: 300,
           useNativeDriver: false
         }).start();
+        this.setState({ index: index - 1 });
+
         Animated.timing(this.state[`opacity${index - 1}`], {
           toValue: 1,
           delay: 300,
@@ -273,7 +257,6 @@ class Screen extends Component {
         }).start();
       }
     });
-    this.setState({ indicator });
   };
   render() {
     return (
@@ -341,9 +324,7 @@ class Screen extends Component {
                     borderRadius: 15,
                     borderWidth: 1,
                     backgroundColor:
-                      this.state.indicator[`indicator${index}`] == 1
-                        ? "#2F485E"
-                        : "white",
+                      this.state.index == index ? "#2F485E" : "white",
                     borderColor: "#2F485E"
                   }
                 ]}
