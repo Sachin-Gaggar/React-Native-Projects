@@ -143,7 +143,12 @@ const styles = StyleSheet.create({
 */
 
 import React, { Component } from "react";
-
+import {
+  translate,
+  animatedWidth,
+  animatedRotation,
+  animatedRadius
+} from "../utill/AnimationFunctions";
 import {
   SafeAreaView,
   StyleSheet,
@@ -186,11 +191,10 @@ class Screen extends Component {
     this.state = {
       opacity0: new Animated.Value(1),
       opacity1: new Animated.Value(0),
-      opacity2: new Animated.Value(0),
-
-      index: 0
+      opacity2: new Animated.Value(0)
     };
   }
+  index = new Animated.Value(0);
   swipe = new Animated.Value(0);
   scrollX = new Animated.Value(0);
   panResponder = PanResponder.create({
@@ -219,20 +223,23 @@ class Screen extends Component {
       if (index == 2) {
         //stop swiping at last page
       } else if (opacity._value == 1) {
-        Animated.timing(this.state[`opacity${index}`], {
-          toValue: 0,
-          duration: 300,
+        Animated.timing(this.index, {
+          toValue: index + 1,
+          duration: 1000,
           useNativeDriver: false
         }).start();
-        this.setState({ index: index + 1 });
+        Animated.timing(this.state[`opacity${index}`], {
+          toValue: 0,
+          duration: 1000,
+          useNativeDriver: false
+        }).start();
         Animated.timing(this.state[`opacity${index + 1}`], {
           toValue: 1,
-          delay: 300,
+          duration: 1000,
           useNativeDriver: false
         }).start();
       }
     });
-    this.setState({ indicator });
   };
   backwardSwipe = () => {
     items = this.state;
@@ -243,21 +250,27 @@ class Screen extends Component {
       if (index == 0) {
         //Stop swiping at first page
       } else if (opacity._value == 1) {
-        Animated.timing(this.state[`opacity${index}`], {
-          toValue: 0,
-          duration: 300,
+        Animated.timing(this.index, {
+          toValue: index - 1,
+          duration: 1000,
           useNativeDriver: false
         }).start();
-        this.setState({ index: index - 1 });
+
+        Animated.timing(this.state[`opacity${index}`], {
+          toValue: 0,
+          duration: 1000,
+          useNativeDriver: false
+        }).start();
 
         Animated.timing(this.state[`opacity${index - 1}`], {
           toValue: 1,
-          delay: 300,
+          duration: 1000,
           useNativeDriver: false
         }).start();
       }
     });
   };
+
   render() {
     return (
       <SafeAreaView style={{ flex: 1 }}>
@@ -304,6 +317,7 @@ class Screen extends Component {
             <View></View>
           </Animated.View>
         </View>
+
         <View
           style={{
             flexDirection: "row",
@@ -314,23 +328,33 @@ class Screen extends Component {
           }}
         >
           {Data.map((item, index) => {
-            return (
-              <View
-                style={[
-                  {
-                    width: 30,
-                    margin: 4,
-                    height: 30,
-                    borderRadius: 15,
-                    borderWidth: 1,
-                    backgroundColor:
-                      this.state.index == index ? "#2F485E" : "white",
-                    borderColor: "#2F485E"
-                  }
-                ]}
-              />
-            );
+            let opacity = this.index;
+
+            return <View key={index} style={styles.circle} />;
           })}
+
+          <Animated.View
+            style={[
+              {
+                width: animatedWidth(this.index),
+                margin: 4,
+                position: "absolute",
+                height: animatedWidth(this.index),
+                borderRadius: animatedRadius(this.index),
+                borderWidth: 1,
+                backgroundColor: "#2F485E",
+                borderColor: "#2F485E",
+                transform: [
+                  {
+                    translateX: translate(this.index)
+                  },
+                  {
+                    rotate: animatedRotation(this.index)
+                  }
+                ]
+              }
+            ]}
+          />
         </View>
       </SafeAreaView>
     );
@@ -344,5 +368,14 @@ const styles = StyleSheet.create({
     alignItems: "center",
 
     flex: 1
+  },
+  circle: {
+    width: 30,
+    marginHorizontal: 10,
+    height: 30,
+    borderRadius: 15,
+    borderWidth: 1,
+
+    borderColor: "#2F485E"
   }
 });

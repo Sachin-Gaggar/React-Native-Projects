@@ -13,3 +13,7 @@ Should support both left and right swipes
 
 <img src='./src/assets/screenshot1.png'> <img src='./src/assets/screenshot2.png'>
 <img src='./src/assets/screenshot3.png'>
+
+### edited
+
+<img src="./src/assets/video2.gif">
