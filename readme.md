@@ -12,6 +12,3 @@ All the react native projects.
 [Note Application with sign in screen](https://github.com/Sachin-Gaggar/Note-App)
 
 [implementing Mobx](https://github.com/Sachin-Gaggar/React-Native-Projects/tree/5-4-21-Mobx)
-
-[many more in](https://github.com/Sachin-Gaggar/React-Native-Projects) 
-
