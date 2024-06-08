@@ -1,5 +1,10 @@
 # List-of-all-projects
-All the react native projects.
+
+2024 Projects:
+
+[Infinte/Looping Caraousel Banner](https://github.com/Sachin-Gaggar/React-Native-Projects/tree/InfiniteCaraouselLoop)
+
+2021: React native projects.
 
 [Realm](https://github.com/Sachin-Gaggar/React-Native-Projects/tree/7-4-21-Realm)
 
