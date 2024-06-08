@@ -1,4 +1,4 @@
-# Caraousal Banner
+# Caraousel Banner
 
 ### Basic Carousel Code from which we can understand how the carousel is lopped in react-native-reanimated-carousel
 
