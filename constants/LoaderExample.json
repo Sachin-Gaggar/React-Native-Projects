@@ -1,0 +1,1276 @@
+{
+  "loaderView": [
+    {
+      "component": "view",
+      "name": "cardContainer",
+      "style": {
+        "flexDirection": "row",
+        "alignItems": "center",
+        "padding": 16,
+        "margin": 16,
+        "borderRadius": 8,
+        "backgroundColor": "#dedede",
+        "elevation": 2,
+        "overflow": "hidden"
+      },
+      "content": [
+        {
+          "component": "view",
+          "name": "profileCircle",
+          "style": {
+            "width": 50,
+            "height": 50,
+            "borderRadius": 25,
+            "overflow": "hidden",
+            "marginRight": 16
+          },
+          "content": [
+            {
+              "component": "loader",
+              "name": "profileLoader"
+            }
+          ]
+        },
+        {
+          "component": "view",
+          "name": "textContent",
+          "style": {
+            "flex": 1,
+            "padding": 10
+          },
+          "content": [
+            {
+              "component": "view",
+              "name": "namePlaceholderContainer",
+              "style": {
+                "height": 14,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "namePlaceholderLoader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine1Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 4,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine1Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine2Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine2Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "somethingPlaceholderContainer",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "somethingPlaceholderLoader"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "view",
+      "name": "cardContainer",
+      "style": {
+        "flexDirection": "row",
+        "alignItems": "center",
+        "padding": 16,
+        "margin": 16,
+        "borderRadius": 8,
+        "backgroundColor": "#dedede",
+        "elevation": 2,
+        "overflow": "hidden"
+      },
+      "content": [
+        {
+          "component": "view",
+          "name": "profileCircle",
+          "style": {
+            "width": 50,
+            "height": 50,
+            "borderRadius": 25,
+            "overflow": "hidden",
+            "marginRight": 16
+          },
+          "content": [
+            {
+              "component": "loader",
+              "name": "profileLoader"
+            }
+          ]
+        },
+        {
+          "component": "view",
+          "name": "textContent",
+          "style": {
+            "flex": 1,
+            "padding": 10
+          },
+          "content": [
+            {
+              "component": "view",
+              "name": "namePlaceholderContainer",
+              "style": {
+                "height": 14,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "namePlaceholderLoader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine1Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 4,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine1Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine2Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine2Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "somethingPlaceholderContainer",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "somethingPlaceholderLoader"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "view",
+      "name": "cardContainer",
+      "style": {
+        "flexDirection": "row",
+        "alignItems": "center",
+        "padding": 16,
+        "margin": 16,
+        "borderRadius": 8,
+        "backgroundColor": "#dedede",
+        "elevation": 2,
+        "overflow": "hidden"
+      },
+      "content": [
+        {
+          "component": "view",
+          "name": "profileCircle",
+          "style": {
+            "width": 50,
+            "height": 50,
+            "borderRadius": 25,
+            "overflow": "hidden",
+            "marginRight": 16
+          },
+          "content": [
+            {
+              "component": "loader",
+              "name": "profileLoader"
+            }
+          ]
+        },
+        {
+          "component": "view",
+          "name": "textContent",
+          "style": {
+            "flex": 1,
+            "padding": 10
+          },
+          "content": [
+            {
+              "component": "view",
+              "name": "namePlaceholderContainer",
+              "style": {
+                "height": 14,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "namePlaceholderLoader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine1Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 4,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine1Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine2Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine2Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "somethingPlaceholderContainer",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "somethingPlaceholderLoader"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "view",
+      "name": "cardContainer",
+      "style": {
+        "flexDirection": "row",
+        "alignItems": "center",
+        "padding": 16,
+        "margin": 16,
+        "borderRadius": 8,
+        "backgroundColor": "#dedede",
+        "elevation": 2,
+        "overflow": "hidden"
+      },
+      "content": [
+        {
+          "component": "view",
+          "name": "profileCircle",
+          "style": {
+            "width": 50,
+            "height": 50,
+            "borderRadius": 25,
+            "overflow": "hidden",
+            "marginRight": 16
+          },
+          "content": [
+            {
+              "component": "loader",
+              "name": "profileLoader"
+            }
+          ]
+        },
+        {
+          "component": "view",
+          "name": "textContent",
+          "style": {
+            "flex": 1,
+            "padding": 10
+          },
+          "content": [
+            {
+              "component": "view",
+              "name": "namePlaceholderContainer",
+              "style": {
+                "height": 14,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "namePlaceholderLoader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine1Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 4,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine1Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine2Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine2Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "somethingPlaceholderContainer",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "somethingPlaceholderLoader"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "view",
+      "name": "cardContainer",
+      "style": {
+        "flexDirection": "row",
+        "alignItems": "center",
+        "padding": 16,
+        "margin": 16,
+        "borderRadius": 8,
+        "backgroundColor": "#dedede",
+        "elevation": 2,
+        "overflow": "hidden"
+      },
+      "content": [
+        {
+          "component": "view",
+          "name": "profileCircle",
+          "style": {
+            "width": 50,
+            "height": 50,
+            "borderRadius": 25,
+            "overflow": "hidden",
+            "marginRight": 16
+          },
+          "content": [
+            {
+              "component": "loader",
+              "name": "profileLoader"
+            }
+          ]
+        },
+        {
+          "component": "view",
+          "name": "textContent",
+          "style": {
+            "flex": 1,
+            "padding": 10
+          },
+          "content": [
+            {
+              "component": "view",
+              "name": "namePlaceholderContainer",
+              "style": {
+                "height": 14,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "namePlaceholderLoader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine1Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 4,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine1Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine2Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine2Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "somethingPlaceholderContainer",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "somethingPlaceholderLoader"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "view",
+      "name": "cardContainer",
+      "style": {
+        "flexDirection": "row",
+        "alignItems": "center",
+        "padding": 16,
+        "margin": 16,
+        "borderRadius": 8,
+        "backgroundColor": "#dedede",
+        "elevation": 2,
+        "overflow": "hidden"
+      },
+      "content": [
+        {
+          "component": "view",
+          "name": "profileCircle",
+          "style": {
+            "width": 50,
+            "height": 50,
+            "borderRadius": 25,
+            "overflow": "hidden",
+            "marginRight": 16
+          },
+          "content": [
+            {
+              "component": "loader",
+              "name": "profileLoader"
+            }
+          ]
+        },
+        {
+          "component": "view",
+          "name": "textContent",
+          "style": {
+            "flex": 1,
+            "padding": 10
+          },
+          "content": [
+            {
+              "component": "view",
+              "name": "namePlaceholderContainer",
+              "style": {
+                "height": 14,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "namePlaceholderLoader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine1Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 4,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine1Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine2Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine2Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "somethingPlaceholderContainer",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "somethingPlaceholderLoader"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "view",
+      "name": "cardContainer",
+      "style": {
+        "flexDirection": "row",
+        "alignItems": "center",
+        "padding": 16,
+        "margin": 16,
+        "borderRadius": 8,
+        "backgroundColor": "#dedede",
+        "elevation": 2,
+        "overflow": "hidden"
+      },
+      "content": [
+        {
+          "component": "view",
+          "name": "profileCircle",
+          "style": {
+            "width": 50,
+            "height": 50,
+            "borderRadius": 25,
+            "overflow": "hidden",
+            "marginRight": 16
+          },
+          "content": [
+            {
+              "component": "loader",
+              "name": "profileLoader"
+            }
+          ]
+        },
+        {
+          "component": "view",
+          "name": "textContent",
+          "style": {
+            "flex": 1,
+            "padding": 10
+          },
+          "content": [
+            {
+              "component": "view",
+              "name": "namePlaceholderContainer",
+              "style": {
+                "height": 14,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "namePlaceholderLoader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine1Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 4,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine1Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine2Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine2Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "somethingPlaceholderContainer",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "somethingPlaceholderLoader"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "view",
+      "name": "cardContainer",
+      "style": {
+        "flexDirection": "row",
+        "alignItems": "center",
+        "padding": 16,
+        "margin": 16,
+        "borderRadius": 8,
+        "backgroundColor": "#dedede",
+        "elevation": 2,
+        "overflow": "hidden"
+      },
+      "content": [
+        {
+          "component": "view",
+          "name": "profileCircle",
+          "style": {
+            "width": 50,
+            "height": 50,
+            "borderRadius": 25,
+            "overflow": "hidden",
+            "marginRight": 16
+          },
+          "content": [
+            {
+              "component": "loader",
+              "name": "profileLoader"
+            }
+          ]
+        },
+        {
+          "component": "view",
+          "name": "textContent",
+          "style": {
+            "flex": 1,
+            "padding": 10
+          },
+          "content": [
+            {
+              "component": "view",
+              "name": "namePlaceholderContainer",
+              "style": {
+                "height": 14,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "namePlaceholderLoader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine1Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 4,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine1Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine2Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine2Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "somethingPlaceholderContainer",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "somethingPlaceholderLoader"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "view",
+      "name": "cardContainer",
+      "style": {
+        "flexDirection": "row",
+        "alignItems": "center",
+        "padding": 16,
+        "margin": 16,
+        "borderRadius": 8,
+        "backgroundColor": "#dedede",
+        "elevation": 2,
+        "overflow": "hidden"
+      },
+      "content": [
+        {
+          "component": "view",
+          "name": "profileCircle",
+          "style": {
+            "width": 50,
+            "height": 50,
+            "borderRadius": 25,
+            "overflow": "hidden",
+            "marginRight": 16
+          },
+          "content": [
+            {
+              "component": "loader",
+              "name": "profileLoader"
+            }
+          ]
+        },
+        {
+          "component": "view",
+          "name": "textContent",
+          "style": {
+            "flex": 1,
+            "padding": 10
+          },
+          "content": [
+            {
+              "component": "view",
+              "name": "namePlaceholderContainer",
+              "style": {
+                "height": 14,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "namePlaceholderLoader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine1Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 4,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine1Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine2Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine2Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "somethingPlaceholderContainer",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "somethingPlaceholderLoader"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "view",
+      "name": "cardContainer",
+      "style": {
+        "flexDirection": "row",
+        "alignItems": "center",
+        "padding": 16,
+        "margin": 16,
+        "borderRadius": 8,
+        "backgroundColor": "#dedede",
+        "elevation": 2,
+        "overflow": "hidden"
+      },
+      "content": [
+        {
+          "component": "view",
+          "name": "profileCircle",
+          "style": {
+            "width": 50,
+            "height": 50,
+            "borderRadius": 25,
+            "overflow": "hidden",
+            "marginRight": 16
+          },
+          "content": [
+            {
+              "component": "loader",
+              "name": "profileLoader"
+            }
+          ]
+        },
+        {
+          "component": "view",
+          "name": "textContent",
+          "style": {
+            "flex": 1,
+            "padding": 10
+          },
+          "content": [
+            {
+              "component": "view",
+              "name": "namePlaceholderContainer",
+              "style": {
+                "height": 14,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "namePlaceholderLoader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine1Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 4,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine1Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine2Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine2Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "somethingPlaceholderContainer",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "somethingPlaceholderLoader"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "view",
+      "name": "cardContainer",
+      "style": {
+        "flexDirection": "row",
+        "alignItems": "center",
+        "padding": 16,
+        "margin": 16,
+        "borderRadius": 8,
+        "backgroundColor": "#dedede",
+        "elevation": 2,
+        "overflow": "hidden"
+      },
+      "content": [
+        {
+          "component": "view",
+          "name": "profileCircle",
+          "style": {
+            "width": 50,
+            "height": 50,
+            "borderRadius": 25,
+            "overflow": "hidden",
+            "marginRight": 16
+          },
+          "content": [
+            {
+              "component": "loader",
+              "name": "profileLoader"
+            }
+          ]
+        },
+        {
+          "component": "view",
+          "name": "textContent",
+          "style": {
+            "flex": 1,
+            "padding": 10
+          },
+          "content": [
+            {
+              "component": "view",
+              "name": "namePlaceholderContainer",
+              "style": {
+                "height": 14,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "namePlaceholderLoader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine1Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 4,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine1Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine2Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine2Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "somethingPlaceholderContainer",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "somethingPlaceholderLoader"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "view",
+      "name": "cardContainer",
+      "style": {
+        "flexDirection": "row",
+        "alignItems": "center",
+        "padding": 16,
+        "margin": 16,
+        "borderRadius": 8,
+        "backgroundColor": "#dedede",
+        "elevation": 2,
+        "overflow": "hidden"
+      },
+      "content": [
+        {
+          "component": "view",
+          "name": "profileCircle",
+          "style": {
+            "width": 50,
+            "height": 50,
+            "borderRadius": 25,
+            "overflow": "hidden",
+            "marginRight": 16
+          },
+          "content": [
+            {
+              "component": "loader",
+              "name": "profileLoader"
+            }
+          ]
+        },
+        {
+          "component": "view",
+          "name": "textContent",
+          "style": {
+            "flex": 1,
+            "padding": 10
+          },
+          "content": [
+            {
+              "component": "view",
+              "name": "namePlaceholderContainer",
+              "style": {
+                "height": 14,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "namePlaceholderLoader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine1Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 4,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine1Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "descriptionLine2Container",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "marginBottom": 8,
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "descriptionLine2Loader"
+                }
+              ]
+            },
+            {
+              "component": "view",
+              "name": "somethingPlaceholderContainer",
+              "style": {
+                "height": 12,
+                "backgroundColor": "#ddd",
+                "borderRadius": 4
+              },
+              "content": [
+                {
+                  "component": "loader",
+                  "name": "somethingPlaceholderLoader"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

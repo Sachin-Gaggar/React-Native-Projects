@@ -1,0 +1,96 @@
+{
+  "data": [
+    {
+      "component": "view",
+      "name": "container",
+      "light": {
+        "props": {
+          "style": {
+            "padding": 10,
+            "flex": 1,
+            "backgroundColor": "#ffffff"
+          }
+        }
+      },
+      "dark": {
+        "props": {
+          "style": {
+            "padding": 10,
+            "flex": 1,
+            "backgroundColor": "#000000"
+          }
+        }
+      },
+      "children": [
+        {
+          "component": "text",
+          "name": "headerText",
+          "light": {
+            "props": {
+              "style": {
+                "fontSize": 20,
+                "color": "#333333",
+                "fontWeight": "bold"
+              }
+            }
+          },
+          "dark": {
+            "props": {
+              "style": {
+                "fontSize": 20,
+                "color": "#ffffff",
+                "fontWeight": "bold"
+              }
+            }
+          },
+          "content": "Welcome to Server-Driven UI!"
+        },
+        {
+          "component": "view",
+          "name": "contentContainer",
+          "light": {
+            "props": {
+              "style": {
+                "marginTop": 10,
+                "padding": 10,
+                "backgroundColor": "#f5f5f5"
+              }
+            }
+          },
+          "dark": {
+            "props": {
+              "style": {
+                "marginTop": 10,
+                "padding": 10,
+                "backgroundColor": "#1e1e1e"
+              }
+            }
+          },
+          "children": [
+            {
+              "component": "text",
+              "name": "contentText",
+              "light": {
+                "props": {
+                  "style": {
+                    "fontSize": 16,
+                    "color": "#666666"
+                  }
+                }
+              },
+              "dark": {
+                "props": {
+                  "style": {
+                    "fontSize": 16,
+                    "color": "#cccccc"
+                  }
+                }
+              },
+              "content": "This is a simple example of server-driven UI using React Native."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

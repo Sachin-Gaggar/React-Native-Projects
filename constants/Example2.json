@@ -1,0 +1,253 @@
+{
+  "data": [
+    {
+      "component": "view",
+      "name": "container",
+      "light": {
+        "props": {
+          "style": {
+            "padding": 10,
+            "flex": 1,
+            "backgroundColor": "#ffffff"
+          }
+        }
+      },
+      "dark": {
+        "props": {
+          "style": {
+            "padding": 10,
+            "flex": 1,
+            "backgroundColor": "#000000"
+          }
+        }
+      },
+
+      "children": [
+        {
+          "component": "text",
+          "name": "appTitle",
+          "light": {
+            "props": {
+              "style": {
+                "fontSize": 24,
+                "fontWeight": "bold",
+                "color": "#000000",
+                "textAlign": "center",
+                "marginBottom": 20
+              }
+            }
+          },
+          "dark": {
+            "props": {
+              "style": {
+                "fontSize": 24,
+                "fontWeight": "bold",
+                "color": "#ffffff",
+                "textAlign": "center",
+                "marginBottom": 20
+              }
+            }
+          },
+          "content": "Dashboard"
+        },
+        {
+          "component": "view",
+          "name": "cardContainer",
+          "light": {
+            "props": {
+              "style": {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginBottom": 20
+              }
+            }
+          },
+          "dark": {
+            "props": {
+              "style": {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginBottom": 20
+              }
+            }
+          },
+          "children": [
+            {
+              "component": "touchableOpacity",
+              "name": "card1",
+              "light": {
+                "props": {
+                  "style": {
+                    "width": "48%",
+                    "height": 150,
+                    "backgroundColor": "#f0f0f0",
+                    "borderRadius": 10,
+                    "padding": 10
+                  }
+                }
+              },
+              "dark": {
+                "props": {
+                  "style": {
+                    "width": "48%",
+                    "height": 150,
+                    "backgroundColor": "#1f1f1f",
+                    "borderRadius": 10,
+                    "padding": 10
+                  }
+                }
+              },
+              "children": [
+                {
+                  "component": "text",
+                  "name": "card1Title",
+                  "light": {
+                    "props": {
+                      "style": {
+                        "fontSize": 18,
+                        "fontWeight": "bold",
+                        "color": "#333333"
+                      }
+                    }
+                  },
+                  "dark": {
+                    "props": {
+                      "style": {
+                        "fontSize": 18,
+                        "fontWeight": "bold",
+                        "color": "#cccccc"
+                      }
+                    }
+                  },
+                  "content": "Card 1"
+                },
+                {
+                  "component": "text",
+                  "name": "card1Content",
+                  "light": {
+                    "props": {
+                      "style": {
+                        "fontSize": 14,
+                        "color": "#555555",
+                        "marginTop": 10
+                      }
+                    }
+                  },
+                  "dark": {
+                    "props": {
+                      "style": {
+                        "fontSize": 14,
+                        "color": "#aaaaaa",
+                        "marginTop": 10
+                      }
+                    }
+                  },
+                  "content": "This is the content of card 1."
+                }
+              ]
+            },
+            {
+              "component": "touchableOpacity",
+              "name": "card2",
+              "light": {
+                "props": {
+                  "style": {
+                    "width": "48%",
+                    "height": 150,
+                    "backgroundColor": "#f0f0f0",
+                    "borderRadius": 10,
+                    "padding": 10
+                  }
+                }
+              },
+              "dark": {
+                "props": {
+                  "style": {
+                    "width": "48%",
+                    "height": 150,
+                    "backgroundColor": "#1f1f1f",
+                    "borderRadius": 10,
+                    "padding": 10
+                  }
+                }
+              },
+              "children": [
+                {
+                  "component": "text",
+                  "name": "card2Title",
+                  "light": {
+                    "props": {
+                      "style": {
+                        "fontSize": 18,
+                        "fontWeight": "bold",
+                        "color": "#333333"
+                      }
+                    }
+                  },
+                  "dark": {
+                    "props": {
+                      "style": {
+                        "fontSize": 18,
+                        "fontWeight": "bold",
+                        "color": "#cccccc"
+                      }
+                    }
+                  },
+                  "content": "Card 2"
+                },
+                {
+                  "component": "text",
+                  "name": "card2Content",
+                  "light": {
+                    "props": {
+                      "style": {
+                        "fontSize": 14,
+                        "color": "#555555",
+                        "marginTop": 10
+                      }
+                    }
+                  },
+                  "dark": {
+                    "props": {
+                      "style": {
+                        "fontSize": 14,
+                        "color": "#aaaaaa",
+                        "marginTop": 10
+                      }
+                    }
+                  },
+                  "content": "This is the content of card 2."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "component": "text",
+          "name": "footerText",
+          "light": {
+            "props": {
+              "style": {
+                "fontSize": 16,
+                "color": "#333333",
+                "textAlign": "center",
+                "marginTop": 20
+              }
+            }
+          },
+          "dark": {
+            "props": {
+              "style": {
+                "fontSize": 16,
+                "color": "#cccccc",
+                "textAlign": "center",
+                "marginTop": 20
+              }
+            }
+          },
+          "content": "Thank you for visiting the dashboard."
+        }
+      ]
+    }
+  ]
+}
